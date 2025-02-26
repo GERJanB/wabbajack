@@ -147,6 +147,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wabbajack.Downloaders.Verif
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wabbajack.Configuration", "Wabbajack.Configuration\Wabbajack.Configuration.csproj", "{E7CDACA6-D3FF-4CF6-8EF8-05FCD27F6FBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wabbajack.App.Avalonia", "Wabbajack.App.Avalonia\Wabbajack.App.Avalonia.csproj", "{94049695-EC31-4213-9AAC-6E8D70FF8FB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -401,6 +403,10 @@ Global
 		{E7CDACA6-D3FF-4CF6-8EF8-05FCD27F6FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7CDACA6-D3FF-4CF6-8EF8-05FCD27F6FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7CDACA6-D3FF-4CF6-8EF8-05FCD27F6FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94049695-EC31-4213-9AAC-6E8D70FF8FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94049695-EC31-4213-9AAC-6E8D70FF8FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94049695-EC31-4213-9AAC-6E8D70FF8FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94049695-EC31-4213-9AAC-6E8D70FF8FB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
