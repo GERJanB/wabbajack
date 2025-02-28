@@ -12,9 +12,40 @@
     <Design.DataContext>
         <!-- This only sets the DataContext for the previewer in an IDE,
              to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
-        <vm:MainWindowViewModel/>
+        <vm:MainWindowViewModel />
     </Design.DataContext>
 
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Margin="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="140" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0"
+                       FontSize="16"
+                       Margin="0 0 8 0"
+                       Name="AppName" />
+
+            <TextBlock Grid.Column="1"
+                       FontSize="16"
+                       Margin="5 0"
+                       Name="RessourceUsage"
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center" />
+            
+            <Button Grid.Column="2"
+                    Name="SettingsButton">
+                <ToolTip.Tip>Open Wabbjack settings</ToolTip.Tip>
+            </Button>
+        </Grid>
+    </Grid>
+
 
 </Window>
